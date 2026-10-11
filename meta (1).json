@@ -1,0 +1,52 @@
+{
+  "alan_m2": {
+    "min": 413,
+    "max": 3386
+  },
+  "kat_sayisi": {
+    "min": 2,
+    "max": 15
+  },
+  "insaat_yili": {
+    "min": 2018,
+    "max": 2023
+  },
+  "zemin_siniflari": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "n_proje": 50,
+  "basit_model": {
+    "mae": 4.498812383483925,
+    "r2": 0.7779405427678296,
+    "alan_katsayisi": 0.006103230907451866,
+    "kat_katsayisi": 2.152319546289424,
+    "features": [
+      "alan_m2",
+      "kat_sayisi"
+    ]
+  },
+  "gelismis_model": {
+    "mae": 4.6373231128569925,
+    "r2": 0.7877623968317916,
+    "train_r2": 0.8952194196669009,
+    "features": [
+      "alan_m2",
+      "kat_sayisi",
+      "insaat_yili",
+      "zemin_sinifi_B",
+      "zemin_sinifi_C",
+      "zemin_sinifi_D"
+    ],
+    "coefs": {
+      "alan_m2": 0.006377760277279379,
+      "kat_sayisi": 2.099994661080906,
+      "insaat_yili": 0.5576695685582476,
+      "zemin_sinifi_B": 2.6416101074309304,
+      "zemin_sinifi_C": 2.175258564992921,
+      "zemin_sinifi_D": 0.2913714392817207
+    }
+  }
+}
